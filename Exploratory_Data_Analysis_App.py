@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat May  1 11:10:56 2021
 
-@author: Lenovo
-"""
 
 import streamlit as st
 import pandas as pd
@@ -166,7 +161,3 @@ if Selection == "Exploratory Data Analysis App":
     """
     st.code(code, language='python')
 
-st.sidebar.title("Created By:")
-st.sidebar.subheader("Ashutosh Shinde")
-st.sidebar.subheader("[LinkedIn Profile](https://www.linkedin.com/in/ashinde8/)")
-st.sidebar.subheader("[GitHub Repository](https://github.com/ashinde8/Exploratory-Data-Analysis-App)")    
